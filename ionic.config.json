@@ -1,0 +1,7 @@
+{
+  "name": "ioniclabtask4",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
