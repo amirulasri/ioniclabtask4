@@ -15,6 +15,22 @@ const routes: Routes = [
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
+  {
+    path: 'fcom',
+    loadChildren: () => import('./fcom/fcom.module').then( m => m.FcomPageModule)
+  },
+  {
+    path: 'course',
+    loadChildren: () => import('./course/course.module').then( m => m.CoursePageModule)
+  },
+  {
+    path: 'promotion',
+    loadChildren: () => import('./promotion/promotion.module').then( m => m.PromotionPageModule)
+  },
+  {
+    path: 'contact',
+    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+  },
 ];
 
 @NgModule({

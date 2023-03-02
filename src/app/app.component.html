@@ -3,7 +3,7 @@
   <ion-menu contentId="main-content">
     <ion-header>
       <ion-toolbar>
-        <ion-title>UPTM</ion-title>
+        <ion-title>Menu</ion-title>
       </ion-toolbar>
     </ion-header>
     <br><br>
@@ -20,6 +20,30 @@
             <ion-icon slot="start" name="globe-outline"></ion-icon>
             <ion-label>
               <h3>About</h3>
+            </ion-label>
+          </ion-item>
+          <ion-item button [routerLink]="['/fcom']" detail="false">
+            <ion-icon slot="start" name="business-outline"></ion-icon>
+            <ion-label>
+              <h3>FCOM</h3>
+            </ion-label>
+          </ion-item>
+          <ion-item button [routerLink]="['/course']" detail="false">
+            <ion-icon slot="start" name="server-outline"></ion-icon>
+            <ion-label>
+              <h3>Course</h3>
+            </ion-label>
+          </ion-item>
+          <ion-item button [routerLink]="['/promotion']" detail="false">
+            <ion-icon slot="start" name="videocam-outline"></ion-icon>
+            <ion-label>
+              <h3>Promotion</h3>
+            </ion-label>
+          </ion-item>
+          <ion-item button [routerLink]="['/contact']" detail="false">
+            <ion-icon slot="start" name="chatbubbles-outline"></ion-icon>
+            <ion-label>
+              <h3>Contact</h3>
             </ion-label>
           </ion-item>
         </ion-list>
